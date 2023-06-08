@@ -16301,7 +16301,7 @@ body strong {
 }
 
 body a {
-    color: #b58e3e
+    color: #d88d00
 }
 
 body a:active,
@@ -16565,7 +16565,7 @@ header {
 }
 
 header.sticked {
-    background-color: #00486c;
+    background-color: #40b6f1;
     border-color: transparent;
     box-shadow: 0 0 10px rgba(0, 0, 0, .5)
 }
@@ -16575,13 +16575,13 @@ header.sticked {
         margin-top: -50px
     }
     header.sticked nav.navigation-main .logo {
-        bottom: -35px;
-        -moz-border-radius: 100%;
-        -webkit-border-radius: 100%;
-        border-radius: 100%;
-        background-color: #00486c;
-        width: 90px;
-        height: 93px
+        bottom: 0px;
+    -moz-border-radius: 100%;
+    -webkit-border-radius: 100%;
+    border-radius: 100%;
+    background-color: #00486c;
+    width: 120px;
+    height: 60px;
     }
     header.sticked nav.navigation-main .logo img {
         height: auto;
@@ -16736,7 +16736,8 @@ nav.navigation-main .navigation-block ul li a {
 }
 
 nav.navigation-main .navigation-block ul li>a {
-    color: #fff
+    color: #fff;
+    margin-top: -10px;
 }
 
 nav.navigation-main .navigation-block ul li>ul {
@@ -16786,10 +16787,12 @@ nav.navigation-main .navigation-block ul li>ul li a {
         display: block
     }
     nav.navigation-main .navigation-block>ul>li:first-child>a {
-        padding-left: 0
+        padding-left: 0;
+         
     }
     nav.navigation-main .navigation-block>ul>li:last-child>a {
-        padding-right: 0
+        padding-right: 0;
+         
     }
     nav.navigation-main .navigation-block>ul li>ul {
         padding-top: 10px;
@@ -17031,7 +17034,7 @@ nav.navigation-main .navigation-block ul li>ul li a {
 }
 
 .owl-slider-header .item .title span {
-    color: #ceb071
+    color: #8fc800
 }
 
 .owl-slider-header .item .btn {
@@ -17182,7 +17185,7 @@ nav.navigation-main .navigation-block ul li>ul li a {
 }
 
 .btn.btn-main {
-    background-color: #00486c
+    background-color: #40b6f1
 }
 
 .btn.btn-main:hover {
@@ -19420,7 +19423,7 @@ section {
     height: 50%;
     left: 0;
     bottom: 0;
-    background-color: #00486c
+    background-color: #fff;
 }
 
 .rooms.rooms-category {
@@ -19495,7 +19498,7 @@ section {
 }
 
 .rooms article .details .text .title {
-    margin-bottom: 0;
+    margin-bottom: 10px;
     white-space: nowrap;
     text-overflow: ellipsis;
     overflow: hidden;
@@ -19688,7 +19691,7 @@ section {
 }
 
 .gallery .section-header .title span {
-    color: #fff
+    color: #fff;
 }
 
 .gallery .section-header p {
@@ -21386,4 +21389,56 @@ ul#mobile-menu li {
 
 ul#mobile-menu {
     padding-top: 50px;
+}
+
+/* ----------------------------------------------------------------------------------------------------------------------------- */
+.pre_title {
+    font-size: 1.6rem;
+    line-height: 1rem;
+    text-transform: uppercase;  
+    padding-top: 2rem;
+}
+.pre_title span { 
+    color: #8fc800;
+}
+
+#welcomeIntroSect {
+    position: relative;
+    display: block;
+    padding: 6.5rem 0rem;
+    width: 100%;
+    padding-top: 2rem;
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    background-position-y: 5em;
+    background-size: contain;
+    z-index: 2;
+}
+
+.wlcmIntro h1.hrset {
+    text-align: left;
+    text-transform: capitalize;
+}
+.wlcmIntro p {
+    padding-bottom: 1rem;
+}
+.wlcmIntro p {
+    position: relative;
+    display: block;
+    font-size: 16px;
+    padding: 2rem 0.5rem;
+    margin-bottom: 0px;
+    text-align: justify;
+}
+.details ul { 
+    list-style-type: none;
+    margin-bottom: 10px;
+    padding-left: 15px;
+    text-align: left;
+    width: 100%;
+}
+
+.details ul li { 
+    padding-bottom: 5px;
+    margin-right: 0px;
 }
